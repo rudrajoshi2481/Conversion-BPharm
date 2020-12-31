@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+$bangers-fonts: 'Bangers', cursive;
+
+.container{
+  height:100vh;
+  // background-color: #949cdf;
+}
+
+.app-brand-name{
+  font-family: $bangers-fonts;
+  letter-spacing: 2px;
+}
+
+.topics-title-app{
+  height: 90vh;
+  // width: 90vw;
+  display: flex;
+  margin:0 10vw ;
+  justify-content: center;
+  // flex-direction: row;
+  
+  // align-items: center;
+padding-top:5vh;
+}
+.topictitles-container{
+
+  display: flex;
+  flex-direction: column;
+  
+}
+.topic-cards-topic-titles{
+  width: 33vw;
+  padding-top:5vh;
+  flex: 1;
+}
+
+@media(max-width:900px){
+  
+  .topictitles-container{
+    // display: flex;
+    
+    
+  }
+
+  .topic-cards-topic-titles{
+    width:80vw ;
+    padding-top:5vh;
+  }
+
+}
+
+
+
+
+.metric-form-conversion-container{
+  margin: 5vw;
+}
+
+.metricConversion-span{
+  padding: 5px;
+  
+  min-width: 30%;
+  margin: 5px;
+  color :purple
+}
+
+.dosage-form-conversion{
+  margin: 0 5vw;
+}

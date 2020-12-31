@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+.container {
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-brand-name {
+  font-family: "Bangers", cursive;
+  letter-spacing: 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.topics-title-app {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0 10vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 5vh;
 }
 
-.App-link {
-  color: #61dafb;
+.topictitles-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.topic-cards-topic-titles {
+  width: 33vw;
+  padding-top: 5vh;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+@media (max-width: 900px) {
+  .topic-cards-topic-titles {
+    width: 80vw;
+    padding-top: 5vh;
   }
 }
+
+.metric-form-conversion-container {
+  margin: 5vw;
+}
+
+.metricConversion-span {
+  padding: 5px;
+  min-width: 30%;
+  margin: 5px;
+  color: purple;
+}
+
+.dosage-form-conversion {
+  margin: 0 5vw;
+}
+/*# sourceMappingURL=App.css.map */

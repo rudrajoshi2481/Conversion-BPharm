@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "rudrajoshi-me"
+  },
+  "targets": {
+    "rudrajoshi-me": {
+      "hosting": {
+        "bpharm": [
+          "conversion-bpharm"
+        ]
+      }
+    }
+  }
+}
